@@ -1,0 +1,10 @@
+{
+  "description" : "root policy set for testing",
+  "targetEvaluationType" : "SPEL",
+  "target" : "*",
+  "policySetRefs" : [
+    "admin-allow-all"
+  ],
+  "policyRefs" : [],
+  "combiningMethodName" : "FIRST_ALLOW"
+}

@@ -1,0 +1,9 @@
+{
+  "description" : "allow the admins to do anything",
+  "targetEvaluationType" : "SPEL",
+  "target" : "*",
+  "ruleRefs" : [
+    "admin-allow-all"
+  ],
+  "combiningMethodName" : "FIRST_ALLOW"
+}

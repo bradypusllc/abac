@@ -1,0 +1,6 @@
+{
+  "description" : "allow the admins to do anything",
+  "conditionEvaluationType" : "SPEL",
+  "condition" : "true",
+  "effectTypeName" : "ALLOW"
+}

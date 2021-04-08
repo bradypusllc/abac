@@ -1,0 +1,10 @@
+{
+  "description" : "allow the admins to do anything",
+  "targetEvaluationType" : "SPEL",
+  "target" : "*",
+  "policySetRefs" : [],
+  "policyRefs" : [
+    "admin-allow-all"
+  ],
+  "combiningMethodName" : "FIRST_ALLOW"
+}
